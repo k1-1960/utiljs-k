@@ -1,0 +1,14 @@
+{
+  "name": "utiljs-k",
+  "version": "0.1.3",
+  "description": "¡En desarrollo! Un npm basico y util para discord.js",
+  "main": "index.js",
+  "keywords": [
+    "discord",
+    "bot",
+    "util"
+  ],
+  "author": "k1-1960",
+  "license": "MIT",
+  "homepage": ""
+}
