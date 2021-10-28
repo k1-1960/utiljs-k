@@ -49,7 +49,7 @@ console.log(msg)
 ```js
 const ujsk = require('utiljs-k');
 
-const num = "5+2";
+const num = "5-2";
 
 const msg = await ujsk.rest(num);
 
