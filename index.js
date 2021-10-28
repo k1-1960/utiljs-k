@@ -30,7 +30,7 @@ const multisy = "x";
 	
 const op = args.split(`${multisy}`);
 
-	var res = parseInt(op[0]) * parseInt(op[1])
+	var res = `${parseInt(op[0]) * parseInt(op[1])}`;
 
 return res
 	
