@@ -26,7 +26,7 @@ const op = args.split("-");
 
 module.exports.multi = (args) => {
 
-const multisy = ["x", "×"]
+const multisy = "x";
 	
 const op = args.split(`${multisy}`);
 
