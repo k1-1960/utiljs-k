@@ -32,7 +32,7 @@ console.log(msg)
 ```js
 const ujsk = require('utiljs-k');
 
-const num = "1 2";
+const num = "1+2";
 
 const msg = await ujsk.sum(num);
 
@@ -49,7 +49,7 @@ console.log(msg)
 ```js
 const ujsk = require('utiljs-k');
 
-const num = "5 2";
+const num = "5+2";
 
 const msg = await ujsk.rest(num);
 
@@ -66,7 +66,7 @@ console.log(msg)
 ```js
 const ujsk = require('utiljs-k');
 
-const num = "1 3";
+const num = "1+3";
 
 const msg = await ujsk.multi(num);
 
