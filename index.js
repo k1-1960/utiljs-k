@@ -26,7 +26,9 @@ const op = args.split("-");
 
 module.exports.multi = (args) => {
 
-const op = args.split(["x", "×"]);
+const multisy = ["x", "×"]
+	
+const op = args.split(`${multisy}`);
 
 	var res = parseInt(op[0]) * parseInt(op[1])
 
