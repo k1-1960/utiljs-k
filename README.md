@@ -10,7 +10,7 @@ $ npm install utiljs-k
 
 ### Letras Alternadas
 
-#### Modo de uso:
+Modo de uso:
 
 ```js
 const ujsk = require('utiljs-k');
@@ -27,7 +27,7 @@ console.log(msg)
 
 ### Suma
 
-#### Modo de uso:
+Modo de uso:
 
 ```js
 const ujsk = require('utiljs-k');
@@ -44,7 +44,7 @@ console.log(msg)
 
 ### resta
 
-#### Modo de uso:
+Modo de uso:
 
 ```js
 const ujsk = require('utiljs-k');
@@ -61,13 +61,13 @@ console.log(msg)
 
 ### multiplicacion
 
-#### Modo de uso:
+Modo de uso:
 
 ```js
 const ujsk = require('utiljs-k');
 
-const num = "1×3";
-//puedes usar el signo de multiplicación "×" o la letra "x"
+const num = "1x3";
+//usa la letra "x"
 
 const msg = await ujsk.multi(num);
 
@@ -75,4 +75,20 @@ console.log(msg)
 
 //resultado:
 // 3
+```
+
+### División
+
+Modo de uso:
+```js
+const ujsk = require('utiljs-k');
+
+const num = "12/3";
+
+const msg = await ujsk.div(num);
+
+console.log(msg);
+
+//resultado:
+// 4
 ```

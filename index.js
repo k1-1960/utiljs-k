@@ -4,35 +4,73 @@ return args.split("")
 	.map((char, i) => char[`to${i % 2 ? 'Upper' : 'Lower'}Case`]()).join('')
 };
 
+const errormath = "La solicitud no pudo ser completada, probablemente sea por qué el valor a calcular no era un numero";
+
 module.exports.sum = (args) => {
 
-const op = args.split("+");
+	let text = args.replace(/ /, "").replace(/  /, "")
 
-	var res = parseInt(op[0]) + parseInt(op[1])
+const op = text.split("+");
 
-return res
+	var res = `${parseInt(op[0]) + parseInt(op[1])}`
 	
+if(!isNaN(res)){
+	return res;
+} else {
+	return console.log(errormath)
+}
+
 }
 
 module.exports.rest = (args) => {
 
-const op = args.split("-");
+	let text = args.replace(/ /, "").replace(/  /, "")
 
-	var res = parseInt(op[0]) - parseInt(op[1])
+const op = text.split("-");
 
-	return res
+	var res = `${parseInt(op[0]) - parseInt(op[1])}`
+		
+if(!isNaN(res)){
+	return res;
+} else {
+	return console.log(errormath)
+		}
 	
 }
 
 module.exports.multi = (args) => {
 
+let text = args.replace(/ /, "").replace(/  /, "")
+
 const multisy = "x";
 	
-const op = args.split(`${multisy}`);
+const op = text.split(`${multisy}`);
 
 	var res = `${parseInt(op[0]) * parseInt(op[1])}`;
 
-return res
+if(!isNaN(res)){
+	return res;
+} else {
+	return console.log(errormath)
+}
+	
+}
+
+module.exports.div = (args) => {
+
+let text = args.replace(/ /, "").replace(/  /, "")
+	
+const symb = "/";
+	
+const op = text.split(`${symb}`);
+
+	var res = `${parseInt(op[0]) / parseInt(op[1])}`;
+
+if(!isNaN(res)){
+	return res;
+} else {
+	return console.log(errormath)
+}
 	
 }
 
