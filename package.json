@@ -1,7 +1,7 @@
 {
   "name": "utiljs-k",
-  "version": "0.3.8",
-  "description": "¡En desarrollo! Un npm basico y util para discord.js",
+  "version": "0.4.0",
+  "description": "Npm dedicado a nodejs y a los bots de discord desarrollados en dicho lenguaje.",
   "main": "index.js",
   "keywords": [
     "discord",
