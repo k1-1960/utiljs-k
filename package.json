@@ -9,10 +9,5 @@
     "util"
   ],
   "author": "k1-1960",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/k1-1960/utiljs-k"
-  },
-  "homepage": ""
+  "license": "MIT"
 }
