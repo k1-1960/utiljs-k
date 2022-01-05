@@ -99,3 +99,5 @@ Para usar esta característica tu bot necesita estar en el siguiente servidor: [
 Debes completar un formulario el cual debes enviar a **K1#1960**, dicho formulario se encuentra en el canal **Inicio**.
 
 *Se te notificará si tu bot fue aceptado o rechazado.*
+
+__emojis por [google icons](https://fonts.google.com/icons)__
