@@ -92,3 +92,10 @@ console.log(msg);
 //resultado:
 // 4
 ```
+
+### Emojis! · Discord bots
+Para usar esta característica tu bot necesita estar en el siguiente servidor: [aquí](https://discord.gg/pd4FcMrqXq)
+
+Debes completar un formulario el cual debes enviar a **K1#1960**, dicho formulario se encuentra en el canal **Inicio**.
+
+*Se te notificará si tu bot fue aceptado o rechazado.*

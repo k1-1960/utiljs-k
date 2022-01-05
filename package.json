@@ -1,6 +1,6 @@
 {
   "name": "utiljs-k",
-  "version": "0.4.0",
+  "version": "0.5.4",
   "description": "Npm dedicado a nodejs y a los bots de discord desarrollados en dicho lenguaje.",
   "main": "index.js",
   "keywords": [
@@ -9,5 +9,15 @@
     "util"
   ],
   "author": "k1-1960",
-  "license": "MIT"
+  "license": "MIT",
+  "contributors": [
+    "K1-1960 <k1.codingworld@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/k1-1960/utiljs-k"
+  },
+  "bugs": {
+    "url": "https://github.com/k1-1960/utiljs-k/issues"
+  }
 }
