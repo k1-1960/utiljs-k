@@ -115,7 +115,7 @@ var ms = ujsk.toMs(time, type);
 
 console.log(ms);
 //resultado:
-// 900000
+// '900000'
 ```
 
 En el parametro `type` se aceptan 4 tipos de valores, estos son:
