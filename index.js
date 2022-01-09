@@ -124,4 +124,35 @@ module.exports.emojisId = (emoji) => {
   }
 }
 
+module.exports = (time, type) => {
+ let res;
+ if(time && type){
+ if(isNaN(time)) {
+  res = 'El tiempo debe ser un numero';
+  return res;
+ }
+
+  let ms;
+
+    if(type.toLowerCase() === 's'){
+      ms = time * 1000;
+    }
+
+    if(type.toLowerCase() === 'm'){
+      ms = parseInt(time) * 60 * 1000;
+    }
+
+    if(type.toLowerCase() === 'h'){
+      ms = parseInt(time) * 60 * 60 * 1000;
+    }
+
+    if(type.toLowerCase() === 'd'){
+      ms = parseInt(time) * 24 * 60 * 60 * 1000;
+    }
+ res = `${ms}`;
+}
+  return res; 
+
+}
+
 //npm

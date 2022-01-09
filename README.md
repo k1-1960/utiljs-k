@@ -100,4 +100,26 @@ Debes completar un formulario el cual debes enviar a **K1#1960**, dicho formular
 
 *Se te notificará si tu bot fue aceptado o rechazado.*
 
-__emojis por [google icons](https://fonts.google.com/icons)__
+### toMs
+Convierte tiempo normal a milisegundos!
+
+Modo de uso:
+```js
+
+const ujsk = require('utiljs-k');
+
+var time = '15' || 15;
+var type = 'm';
+
+var ms = ujsk.toMs(time, type);
+
+console.log(ms);
+//resultado:
+// 900000
+```
+
+En el parametro `type` se aceptan 4 tipos de valores, estos son:
+`s` para segundos.
+`m` para minutos.
+`h` para horas.
+`d` para dias.
